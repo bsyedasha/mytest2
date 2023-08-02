@@ -2,6 +2,7 @@
 variable "name" {
   type        = string
   description = "The name to apply to the Snowflake warehouse."
+  default     = "teswarh"
 }
 
 variable "comment" {
