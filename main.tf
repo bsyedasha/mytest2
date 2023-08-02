@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "gvmyaws"
+    organization = "GVMYAWS"
 
     workspaces {
       name = "snapi"
