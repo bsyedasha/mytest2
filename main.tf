@@ -6,7 +6,7 @@ terraform {
     }
   }
 
-  backend "remote" {
+backend "remote" {
     organization = "practise9"
 
     workspaces {
